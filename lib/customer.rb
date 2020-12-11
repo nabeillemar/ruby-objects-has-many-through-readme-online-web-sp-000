@@ -17,7 +17,10 @@ class Customer
     Meal.new(waiter, self, total, tip=0)
   end
 
-
-
+def meals
+    Meal.all.select do |meal|
+      meal.customer == self
+    end
+  end
 
 end 
