@@ -13,4 +13,7 @@ class Waiter
     @@all 
   end
   
+  
+  
+  
 end 
